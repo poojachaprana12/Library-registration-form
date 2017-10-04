@@ -175,7 +175,6 @@ function deleteRow(tableID) {
 	}
 }
 </script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript">
 /** Jquery Function using ajax for Json Output 
 *Validation for all empty fields
