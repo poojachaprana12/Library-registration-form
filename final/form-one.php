@@ -3,6 +3,7 @@
 * Validation check all required fields 
 * Validation message append to error field
 * Jquery and ajax function used for Output in Json form
+* Add/Delete button for more attributes values
 * Mysql Query execute on process.php page
 */
 
