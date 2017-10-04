@@ -1,0 +1,179 @@
+/** CSS For Pages */
+
+body 
+{
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;	
+}
+
+div.wrapper 
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.col5 
+{
+    background-color: #48282f;
+    color: #ffffff;
+}
+
+.col6, .col6 a 
+{
+    background-color: #ffffff;
+    color: #767772;
+}
+
+#copyright 
+{
+    padding: 15px 0;
+}
+
+#header, #topbar, #topnav, #breadcrumb, #container, #footer, #copyright 
+{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+
+#copyright p 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.fl_left 
+{
+    float: left;
+}
+
+.fl_right 
+{
+    float: right;
+}
+
+br.clear 
+{
+    clear: both;
+    margin-top: -15px;
+}
+
+
+#wrapper 
+{
+    background-color: #f9f9f9;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #aaa;
+    overflow: hidden;
+    width: 600px;
+	 margin-left: 300px;
+    margin-top: 10px;
+	 margin-bottom: 40px;
+}
+
+
+#steps 
+{
+    overflow: hidden;
+    width: 600px;
+}
+
+
+#steps form fieldset 
+{
+    border: medium none;
+    padding-bottom: 20px;
+}
+
+
+#steps form p label 
+{
+    color: #666;
+    float: left;
+    font-weight: bold;
+    line-height: 26px;
+    margin-right: 15px;
+    text-align: right;
+    text-shadow: 1px 1px 1px #fff;
+    width: 150px;
+}
+
+element.style 
+{
+    margin-top: 20px;
+}
+
+
+#steps form p 
+{
+    background-color: #f4f4f4;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #aaa;
+    clear: both;
+    float: left;
+    margin: 5px 0 5px 100px;
+    padding: 10px;
+    width: 400px;
+}
+
+#steps form input:not([type="radio"]), #steps form textarea, #steps form select 
+{
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	margin-bottom: 6px;
+    float: left;
+    outline: medium none;
+    padding: 5px;
+    width: 200px;
+}
+
+#footer 
+{
+    padding: 20px 0;
+}
+
+
+#steps form button 
+{
+    background: #4797ed none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #aaa;
+    clear: both;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    outline: medium none;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #777;
+}
+
+
+#steps form p.submit 
+{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+}
+
+.error-span {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+
+
+
